@@ -1,0 +1,25 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\AdoptOpenJDK\jdk-11.0.9.11-hotspot\bin\javadoc.exe" @options @packages"
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\allclasses-index.html = 1605180445496
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\allclasses.html = 1605180445544
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\allpackages-index.html = 1605180445512
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\constant-values.html = 1605180445334
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\deprecated-list.html = 1605180445529
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\element-list = 1605180445283
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\help-doc.html = 1605180445559
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\index-all.html = 1605180445478
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\index.html = 1605180445550
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\member-search-index.js = 1605180445468
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\member-search-index.zip = 1605180445472
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\options = 1605180443951
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\overview-tree.html = 1605180445426
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\package-search-index.js = 1605180445453
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\package-search-index.zip = 1605180445457
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\packages = 1605180443952
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\script.js = 1605180445582
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\search.js = 1605180445595
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\stylesheet.css = 1605180445576
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\type-search-index.js = 1605180445462
+C:\Users\nikol\OneDrive\Radna površina\SK projekat\_Specification\target\apidocs\type-search-index.zip = 1605180445464

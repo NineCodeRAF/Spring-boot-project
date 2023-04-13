@@ -1,0 +1,55 @@
+/mnt/ramdisk/jdk-11/bin/javadoc
+@options
+@packages
+-classpath
+'/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/lib/JsonHandler.jar:/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/lib/YamlHandler.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ConverterComponent 0.0.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ConverterComponent 0.0.1-SNAPSHOT API'
+utils
+utils
+app
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/lib/JsonHandler.jar = 1603931840269
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/lib/YamlHandler.jar = 1603931849837
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/src/main/java = 1603305267912
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/element-list = 1603933184815
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/allclasses.html = 1603933185027
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/script.js = 1603933185063
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/type-search-index.zip = 1603933184971
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/stylesheet.css = 1603933185063
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/search.js = 1603933185071
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/member-search-index.zip = 1603933184975
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/index-all.html = 1603933184979
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/overview-tree.html = 1603933184939
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/package-search-index.js = 1603933184963
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/package-search-index.zip = 1603933184967
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/type-search-index.js = 1603933184971
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/help-doc.html = 1603933185051
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/constant-values.html = 1603933184867
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/deprecated-list.html = 1603933185019
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/overview-summary.html = 1603933185043
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/member-search-index.js = 1603933184975
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/allpackages-index.html = 1603933185003
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/allclasses-index.html = 1603933184995
+/home/ice-frog/Workspaces/Java/Softverske Komponente/ConverterComponent/target/apidocs/index.html = 1603933185035

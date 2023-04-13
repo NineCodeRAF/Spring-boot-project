@@ -1,0 +1,18 @@
+- id: 1
+  naziv: "student"
+  simpleProperties:
+    ime: "Pera"
+    mesto: "Beograd"
+  entityProperties: {}
+- id: 2
+  naziv: "predmet"
+  simpleProperties:
+    ime: "OOP"
+  entityProperties:
+    profesor:
+      id: 3
+      naziv: "profesor"
+      simpleProperties:
+        ime: "Pera"
+        prezime: "Peric"
+      entityProperties: {}

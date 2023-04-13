@@ -1,0 +1,114 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>SK</groupId>
+	<artifactId>ConverterComponent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ConverterComponent</name>
+
+	<properties>
+		<maven.compile.target>1.8</maven.compile.target>
+		<maven.compile.source>1.8</maven.compile.source>
+	</properties>
+
+	<dependencies>
+
+		<!-- lokalni jar kao dependency -->
+		<dependency>
+			<groupId>com.sample1</groupId>
+			<artifactId>saple1</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/Specification-0.0.1.jar</systemPath>
+		</dependency>
+
+		<!-- lokalni jar kao dependency -->
+		<dependency>
+			<groupId>com.sample2</groupId>
+			<artifactId>saple2</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/YAML_Handler-0.0.1-SNAPSHOT.jar</systemPath>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.sample3</groupId>
+			<artifactId>saple3</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/JSON_Handler-0.0.1.jar</systemPath>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.yaml</groupId>
+		    <artifactId>snakeyaml</artifactId>
+		    <version>1.21</version>
+		</dependency>
+		
+
+	</dependencies>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+
+				<configuration>
+					<javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
+					<source>8</source>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<configuration>
+							<!-- Ispisujemo sve sto bi u antu izmedju <target></target> pisali -->
+							<tasks>
+								
+								<copy todir="/home/ice-frog/Desktop/test">
+									<fileset dir="./target" includes="**" />
+								</copy>
+
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+
+</project>
